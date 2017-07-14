@@ -40,28 +40,6 @@ public class MarkovTextGeneratorLoL implements MarkovTextGenerator {
 		
 		if (starterWsLength == 0) return;
 		
-		//		set "starter" to be the first word in the text  
-		starter = textArr[0];
-		//		set "prevWord" to be starter
-		String preWord = starter;
-		for (int i=0; i< starterWsLength; i++)
-		{
-			// check if w is in the list 
-			
-			
-		}
-		
-		//		for each word "w" in the source text starting at the second word
-		//		   check to see if "prevWord" is already a node in the list
-		//		      if "prevWord" is a node in the list
-		//		         add "w" as a nextWord to the "prevWord" node
-		//		      else
-		//		         add a node to the list with "prevWord" as the node's word
-		//		         add "w" as a nextWord to the "prevWord" node
-		//		    set "prevWord" = "w"
-		//
-		//		add starter to be a next word for the last word in the source text.
-		
 		
 		
 	}

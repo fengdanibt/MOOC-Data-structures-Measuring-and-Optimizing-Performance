@@ -44,12 +44,7 @@ public class MarkovTextGeneratorLoL implements MarkovTextGenerator {
 		starter = textArr[0];
 		//		set "prevWord" to be starter
 		String preWord = starter;
-		for (int i=0; i< starterWsLength; i++)
-		{
-			// check if w is in the list 
-			
-			
-		}
+		
 		
 		//		for each word "w" in the source text starting at the second word
 		//		   check to see if "prevWord" is already a node in the list
